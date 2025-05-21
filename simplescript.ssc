@@ -1,0 +1,19 @@
+x := 10
+y := 20
+z := x + y * 2
+
+? x > y do
+    z := x - y
+: 
+    z := y - x
+end
+
+func addNumbers(a, b) do
+    result := a + b
+    return result
+end
+
+repeat
+    log("Looping...")
+    x := x - 1
+until x == 0
