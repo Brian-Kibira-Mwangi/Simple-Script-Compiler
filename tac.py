@@ -1,4 +1,4 @@
-# tac.py - Fixed version
+
 from lexer import Lexer
 from parser import Parser
 
