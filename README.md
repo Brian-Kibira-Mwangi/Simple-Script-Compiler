@@ -1,6 +1,9 @@
 The SimpleScript Compiler is a mini compiler developed to demonstrate core concepts of compiler design. It processes a custom scripting language through key compilation phases;
+
 Lexical Analysis: Tokenizes input source code using regular expressions, identifying keywords, identifiers, literals, and operators.
+
 Syntax Analysis (Parsing): Constructs an Abstract Syntax Tree (AST) from tokens based on a context-free grammar.
+
 Intermediate Code Generation: Converts parsed expressions into Three-Address Code (TAC), enabling simplified code optimization and translation to lower-level representations.
 
 Context Free grammar for sipmlescript code;
